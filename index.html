@@ -197,14 +197,14 @@
                 options: [
                     { text: 'A. baseball', isCorrect: false },
                     { text: 'B. tennis', isCorrect: false },
-                    { text: 'C. soccer', isCorrect: false },
-                    { text: 'D. basketball', isCorrect: true }
+                    { text: 'C. soccer', isCorrect: true },
+                    { text: 'D. basketball', isCorrect: false }
                 ],
-                correctAnswer: 'D. basketball',
-                correctAnswer_vi: 'bóng rổ',
+                correctAnswer: 'C. soccer',
+                correctAnswer_vi: 'bóng đá',
                 hint_vi: 'Nghe tên môn thể thao được nhắc đến.',
-                rationale_vi: 'Nội dung audio cho biết anh ấy chơi bóng rổ (basketball).',
-                rationale_en: 'The audio states that he plays basketball.',
+                rationale_vi: 'Nội dung audio cho biết anh ấy chơi bóng đá.',
+                rationale_en: 'The audio states that he plays soccer.',
             },
             {
                 type: 'mc',
@@ -296,18 +296,18 @@
                 question: '20. We will go to the ... next weekend.',
                 mediaType: 'audio',
                 mediaSource: 'https://res.ioe.vn/edu/EOlympic/ExamData/ImageExam/2013/11/21/635206395308644010_Audio.mp3',
-                audioContent: 'We will go to the beach next weekend.',
+                audioContent: 'We will go to the mountain next weekend.',
                 options: [
                     { text: 'A. garden', isCorrect: false },
-                    { text: 'B. mountain', isCorrect: false },
+                    { text: 'B. mountain', isCorrect: true },
                     { text: 'C. kitchen', isCorrect: false },
-                    { text: 'D. beach', isCorrect: true }
+                    { text: 'D. beach', isCorrect: false }
                 ],
-                correctAnswer: 'D. beach',
+                correctAnswer: 'B. mountain',
                 correctAnswer_vi: 'bãi biển',
                 hint_vi: 'Nghe địa điểm họ sẽ đến vào cuối tuần tới.',
-                rationale_vi: 'Nội dung audio cho biết họ sẽ đi đến bãi biển (beach).',
-                rationale_en: 'The audio says they will go to the beach.',
+                rationale_vi: 'Nội dung audio cho biết họ sẽ đi lên núi.',
+                rationale_en: 'The audio says they will go to the mountain.',
             },
             {
                 type: 'fill-in-the-blank',
@@ -994,12 +994,12 @@
                 question: '84. Where did you spend your _ _ _ _ _ _ ?',
                 mediaType: 'audio',
                 mediaSource: 'https://res.ioe.vn/edu/EOlympic/ExamData/ImageExam/2013/11/20/635205607815204851_Audio.mp3',
-                audioContent: 'Where did you spend your holiday?',
-                correctAnswer: 'holiday',
-                correctAnswer_vi: 'kỳ nghỉ',
-                hint_vi: 'Từ có nghĩa là "kỳ nghỉ". (7 ký tự)',
-                rationale_vi: 'Nội dung audio là câu hỏi "Where did you spend your holiday?" (Bạn đã trải qua kỳ nghỉ của mình ở đâu?).',
-                rationale_en: 'The audio asks "Where did you spend your holiday?".',
+                audioContent: 'Where did you spend your summer?',
+                correctAnswer: 'summer',
+                correctAnswer_vi: 'mùa hè',
+                hint_vi: 'Từ có nghĩa là "mùa hè". (6 ký tự)',
+                rationale_vi: 'Nội dung audio là câu hỏi "Where did you spend your summer?" (Bạn đã trải qua mùa hè của mình ở đâu?).',
+                rationale_en: 'The audio asks "Where did you spend your summer?".',
             },
             {
                 type: 'fill-in-the-blank',
@@ -1765,7 +1765,7 @@
                 <div className="fade-in">
                     {message && <MessageBox message={message.text} type={message.type} />}
                     <header className="text-center mb-8">
-                        <h1 className="text-2xl sm:text-3xl font-extrabold text-blue-600 mb-2">BỘ ĐỀ ÔN IOE K6 SỐ: 01.1</h1>
+                        <h1 className="text-2xl sm:text-3xl font-extrabold text-blue-600 mb-2">BỘ ĐỀ ÔN IOE K6 SỐ: 01.2</h1>
                         <ProgressBar percentage={progressPercentage} />
                     </header>
 
